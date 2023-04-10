@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1026162383658",
+    "firebase_url": "https://wor-project-default-rtdb.firebaseio.com",
+    "project_id": "wor-project",
+    "storage_bucket": "wor-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026162383658:android:1aad825619a0508a665c53",
+        "android_client_info": {
+          "package_name": "com.app.wor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026162383658-3c85u6uq13q962rlqspqt520gkrrckc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBExeQkU2dRDeN-fSTNSy_DNfKhb42CXrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026162383658-3c85u6uq13q962rlqspqt520gkrrckc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

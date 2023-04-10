@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:elevation="5dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/corners_button3">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_product" />
+
+        <TextView
+            android:id="@+id/tvProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/cbSelect"
+            android:layout_toEndOf="@+id/img"
+            android:text="Product Name"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProduct"
+            android:layout_marginLeft="7dp"
+            android:layout_toStartOf="@+id/cbSelect"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/img"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbSelect"
+            android:enabled="false"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

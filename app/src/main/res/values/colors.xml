@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Day mode theme colors -->
+    <color name="purple_200">#28419a</color>
+    <color name="purple_500">#28387c</color>
+    <color name="purple_700">#28387c</color>
+    <color name="teal_200">#28419a</color>
+
+    <!-- Night mode theme colors -->
+    <color name="purple_200_night">#28419a</color>
+    <color name="purple_500_night">#28387c</color>
+    <color name="purple_700_night">#28387c</color>
+    <color name="teal_200_night">#28419a</color>
+
+    <color name="teal_700">#28419a</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_color">#fbf9f9</color>
+    <color name="text">#696767</color>
+    <color name="text2">#4CAF50</color>
+</resources>
